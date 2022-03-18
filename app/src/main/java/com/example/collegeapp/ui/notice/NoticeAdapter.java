@@ -23,7 +23,8 @@ import com.google.android.gms.tasks.Task;
 
 import java.util.ArrayList;
 
-public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeViewAdapter> {
+public class NoticeAdapter{ //extends RecyclerView.Adapter<NoticeAdapter.NoticeViewAdapter> {
+/*
 
     private Context context;
     private ArrayList<NoticeData> list;
@@ -80,6 +81,7 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
             time = itemView.findViewById(R.id.Time);
 
 
+
         }
-    }
+    }*/
 }

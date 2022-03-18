@@ -1,6 +1,7 @@
 package com.example.collegeapp.ui.notice;
 
 public class NoticeData {
+/*
     String title, image, date, time, key;
 
     public NoticeData(){
@@ -47,5 +48,6 @@ public class NoticeData {
     public void getKey(String key){
         this.key = key;
     }
+*/
 
 }

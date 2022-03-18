@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class NoticeFragment extends Fragment {
-
+/*
     private RecyclerView deleteNoticeRecycler;
     private ProgressBar progressBar;
     private ArrayList<NoticeData> list;
@@ -77,5 +77,5 @@ public class NoticeFragment extends Fragment {
 
             }
         });
-    }
+    }*/
 }
