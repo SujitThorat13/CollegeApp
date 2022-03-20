@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
     tools:context=".ui.notice.NoticeFragment">
 
- <!--   <androidx.recyclerview.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
 
         android:id="@+id/deleteNoticeRecycler"
         android:layout_width="match_parent"
@@ -17,6 +16,8 @@
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />-->
+        android:layout_centerInParent="true" />
+
+
 
 </RelativeLayout>

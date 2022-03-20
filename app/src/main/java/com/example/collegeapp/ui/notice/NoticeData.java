@@ -1,7 +1,6 @@
 package com.example.collegeapp.ui.notice;
 
 public class NoticeData {
-/*
     String title, image, date, time, key;
 
     public NoticeData(){
@@ -16,38 +15,15 @@ public class NoticeData {
         this.key = key;
 
     }
-    public String getTitle(){
-        return title;
-    }
-    public void setTitle(String title){
-        this.title = title;
-    }
-
-    public String getTime(){
-        return time;
-    }
-    public void setTime(String time){
-        this.time = time;
-    }
-    public String getImage(){
-        return image;
-    }
-    public void getImage(String image){
-        this.image = image;
-    }
-
-    public String getDate(){
-        return date;
-    }
-    public void getDate(String date){
-        this.date = date;
-    }
-    public String getKey(){
-        return key;
-    }
-    public void getKey(String key){
-        this.key = key;
-    }
-*/
+    public String getTitle(){ return title; }
+    public void setTitle(String title){ this.title = title; }
+    public String getTime(){ return time; }
+    public void setTime(String time){ this.time = time; }
+    public String getImage(){ return image; }
+    public void getImage(String image){ this.image = image; }
+    public String getDate(){ return date; }
+    public void getDate(String date){ this.date = date; }
+    public String getKey(){ return key; }
+    public void getKey(String key){ this.key = key; }
 
 }

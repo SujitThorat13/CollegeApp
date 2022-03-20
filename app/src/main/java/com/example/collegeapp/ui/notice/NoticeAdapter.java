@@ -23,8 +23,7 @@ import com.google.android.gms.tasks.Task;
 
 import java.util.ArrayList;
 
-public class NoticeAdapter{ //extends RecyclerView.Adapter<NoticeAdapter.NoticeViewAdapter> {
-/*
+public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeViewAdapter> {
 
     private Context context;
     private ArrayList<NoticeData> list;
@@ -68,7 +67,6 @@ public class NoticeAdapter{ //extends RecyclerView.Adapter<NoticeAdapter.NoticeV
 
     public class NoticeViewAdapter extends RecyclerView.ViewHolder {
 
-        private Button deleteNotice;
         private TextView deleteNoticeTitle, date, time;
         private ImageView deleteNoticeImage;
 
@@ -77,11 +75,10 @@ public class NoticeAdapter{ //extends RecyclerView.Adapter<NoticeAdapter.NoticeV
 
             deleteNoticeTitle = itemView.findViewById(R.id.deleteNoticeTitle);
             deleteNoticeImage = itemView.findViewById(R.id.deleteNoticeImage);
-            date = itemView.findViewById(R.id.Date);
-            time = itemView.findViewById(R.id.Time);
-
+            date = itemView.findViewById(R.id.date);
+            time = itemView.findViewById(R.id.time);
 
 
         }
-    }*/
+    }
 }

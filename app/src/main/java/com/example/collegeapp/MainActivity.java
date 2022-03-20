@@ -21,9 +21,13 @@ import com.google.android.material.navigation.NavigationView;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private BottomNavigationView bottomNavigationView;
     private NavController navController;
+
+    private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle toggle;
+    private NavigationView navigationView;
 
 /*    SliderView sliderView;
     int[] images =
@@ -55,10 +59,11 @@ public class MainActivity extends AppCompatActivity{
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         navController = Navigation.findNavController(this, R.id.frame_layout);
-        /*drawerLayout = findViewById(R.id.drawerLayout);
+
+        drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navigation_view);
 
-        toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
+       toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
 
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
@@ -66,10 +71,9 @@ public class MainActivity extends AppCompatActivity{
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         navigationView.setNavigationItemSelectedListener(this);
-*/
+
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
 
-/*
     }
 
     @Override
@@ -107,6 +111,6 @@ public class MainActivity extends AppCompatActivity{
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
 
         }
-        return true;*/
+        return true;
     }
 }

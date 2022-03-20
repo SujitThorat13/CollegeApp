@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class NoticeFragment extends Fragment {
-/*
+
     private RecyclerView deleteNoticeRecycler;
     private ProgressBar progressBar;
     private ArrayList<NoticeData> list;
@@ -55,15 +55,14 @@ public class NoticeFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
                 list = new ArrayList<>();
-                for(DataSnapshot snapshot : dataSnapshot.getChildren())
-                {
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
 
                     NoticeData data = snapshot.getValue(NoticeData.class);
                     list.add(data);
 
                 }
 
-                adapter = new NoticeAdapter(getContext(),list);
+                adapter = new NoticeAdapter(getContext(), list);
                 adapter.notifyDataSetChanged();
                 progressBar.setVisibility(View.GONE);
                 deleteNoticeRecycler.setAdapter(adapter);
@@ -77,5 +76,5 @@ public class NoticeFragment extends Fragment {
 
             }
         });
-    }*/
+    }
 }

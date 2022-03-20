@@ -8,4 +8,9 @@
     <string name="start">Start</string>
     <string name="close">Close</string>
 
+    <string name="about_college">RGIT provides a very enriching and rewarding experience to all students. Routine of students includes an optimal mix of work, play and leisure. Curriculum and pedagogy have been designed in a way to make the teaching-learning process both interesting and challenging. Project based learning, problem based learning, choice of elective subjects of ones interest,even from outside the curriculum of RGIT, make the students really interested and involved.</string>
+
+    <string name="college_address">Juhu Versova Link Rd, behind HDFC Bank, Gharkul Society, Bharat Nagar, Versova, Andheri West, Mumbai, Maharashtra 400053</string>
+
+    <string name="contact_details">RGIT college App \nContact: No:+9158338719 \nEmail :mctrgit.ac.in</string>
 </resources>

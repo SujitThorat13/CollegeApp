@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import com.example.collegeapp.R;
 public class GalleryFragment extends Fragment {
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
