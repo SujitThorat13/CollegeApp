@@ -8,10 +8,13 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
+import android.widget.VideoView;
 
+import com.example.collegeapp.ebook.EbookActivity;
 import com.example.collegeapp.ui.home.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
@@ -63,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navigation_view);
 
-       toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
+        toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
 
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
@@ -93,19 +96,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "Developer", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_video:
-                Toast.makeText(this, "Video lectures", Toast.LENGTH_SHORT).show();
+                Intent intent0 = new Intent(getBaseContext(), videoLecture.class);
+                startActivity(intent0);
                 break;
             case R.id.navigation_rate:
                 Toast.makeText(this, "Rate us", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_ebook:
-                Toast.makeText(this, "Ebooks", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, EbookActivity.class));
                 break;
             case R.id.navigation_theme:
                 Toast.makeText(this, "Theme", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_website:
-                Toast.makeText(this, "Website", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(getBaseContext(),WebView.class);
+                startActivity(intent1);
                 break;
             case R.id.navigation_share:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();

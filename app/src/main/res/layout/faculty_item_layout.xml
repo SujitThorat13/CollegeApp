@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="#DADADA"
+            android:background="@drawable/ic_ebook"
             android:weightSum="2">
             <LinearLayout
                 android:layout_width="0dp"
@@ -27,27 +27,33 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="60dp"
                     android:id="@+id/teacherName"
+                    android:gravity="center"
                     android:text="Sujit Thorat"
-                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
                     android:textSize="@dimen/title_size"
                     android:fontFamily="@string/regular"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
                     android:id="@+id/teacherPost"
                     android:text="Principal"
-                    android:textColor="@color/textColor"
-                    android:textSize="@dimen/title_size"
+                    android:textColor="#E40000"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
                     android:fontFamily="@string/regular"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/teacherEmail"
+                    android:gravity="center"
                     android:text="Sujit@gmail.com"
-                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/text_size"
                     android:fontFamily="@string/regular"/>
 
@@ -56,8 +62,8 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/teacherImage"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:src="@drawable/avatarimage"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.5"/>

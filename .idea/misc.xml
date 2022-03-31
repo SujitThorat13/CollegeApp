@@ -4,30 +4,39 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_about.xml" value="0.159" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_baseline_picture_as_pdf_24.xml" value="0.1785" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_book.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_develop.xml" value="0.1" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_developer.xml" value="0.1" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_developper.xml" value="0.159" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_download.xml" value="0.1785" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_ebook.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_faculty.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_gallery.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_group.xml" value="0.1" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_home.xml" value="0.159" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_label.xml" value="0.1785" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_news.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_rate.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_sharekaro.xml" value="0.159" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_star.xml" value="0.1" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/drawable/ic_video.xml" value="0.1" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/activity_ebook.xml" value="0.23282051282051283" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/activity_full_image_view.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/activity_video_lecture.xml" value="0.23282051282051283" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/activity_web_view.xml" value="0.23282051282051283" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/branch_item_layout.xml" value="0.21302083333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/drawer_header.xml" value="0.176" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/ebook_item_layout.xml" value="0.23282051282051283" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/faculty_item_layout.xml" value="0.22083333333333333" />
-        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_about.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_about.xml" value="0.264" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_faculty.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
-        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/fragment_notice.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/gallery_image.xml" value="0.23645833333333333" />
-        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.4" />
+        <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.264" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/layout/no_data_found.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/menu/bottom_nav.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidApp/CollegeApp/app/src/main/res/menu/navigation_drawer.xml" value="0.2" />

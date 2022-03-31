@@ -13,12 +13,6 @@ import android.widget.ImageView;
 
 
 import com.example.collegeapp.R;
-/*
-import com.smarteist.autoimageslider.DefaultSliderView;
-import com.smarteist.autoimageslider.IndicatorAnimations;
-import com.smarteist.autoimageslider.SliderAnimations;
-import com.smarteist.autoimageslider.SliderLayout;
-*/
 
 public class HomeFragment extends Fragment {
     private ImageView map;
@@ -44,7 +38,7 @@ public class HomeFragment extends Fragment {
     }
 
     private void openMap() {
-        Uri uri = Uri.parse("geo, 0?q=Rajiv Gandhi Institute of Technology");
+        Uri uri = Uri.parse("geo:0, 0?q=Rajiv Gandhi Institute of Technology");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         intent.setPackage("com.google.android.apps.maps");
         startActivity(intent);
