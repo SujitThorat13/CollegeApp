@@ -12,12 +12,12 @@
         tools:layout="@layout/fragment_home"/>
 
     <fragment android:id="@+id/navigation_notice"
-        android:name="com.example.collegeapp.ui.notice.NoticeFragment"
+        android:name="com.example.collegeapp.ui.notice.ui.NoticeFragment"
         android:label="Notice"
         tools:layout="@layout/fragment_notice"/>
 
     <fragment android:id="@+id/navigation_faculty"
-        android:name="com.example.collegeapp.ui.faculty.FacultyFragment"
+        android:name="com.example.collegeapp.ui.faculty.ui.FacultyFragment"
         android:label="Faculty"
         tools:layout="@layout/fragment_faculty"/>
 

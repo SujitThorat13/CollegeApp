@@ -1,4 +1,4 @@
-package com.example.collegeapp.ui.faculty;
+package com.example.collegeapp.ui.faculty.domain.models;
 
 public class TeacherData {
     private String name, email, post, image, key;

@@ -1,9 +1,9 @@
-package com.example.collegeapp.ui.faculty;
+package com.example.collegeapp.ui.faculty.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,7 +15,9 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.collegeapp.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.example.collegeapp.ui.faculty.domain.models.TeacherData;
+import com.example.collegeapp.ui.faculty.domain.utils.TeacherAdapter;
+import com.example.collegeapp.ui.faculty.domain.utils.TeacherAdapter1;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -33,6 +35,13 @@ public class FacultyFragment extends Fragment {
 
     private DatabaseReference reference, dbRef;
 
+    private TeacherAdapter1 teacherAdapter;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        teacherAdapter = new TeacherAdapter1();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -1,8 +1,9 @@
-package com.example.collegeapp.ui.notice;
+package com.example.collegeapp.ui.notice.ui;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,6 +15,8 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.collegeapp.R;
+import com.example.collegeapp.ui.notice.domain.models.NoticeData;
+import com.example.collegeapp.ui.notice.domain.utils.NoticeAdapter1;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,15 +30,20 @@ public class NoticeFragment extends Fragment {
     private RecyclerView deleteNoticeRecycler;
     private ProgressBar progressBar;
     private ArrayList<NoticeData> list;
-    private NoticeAdapter adapter;
+    private NoticeAdapter1 adapter1;
 
     private DatabaseReference reference;
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        adapter1 = new NoticeAdapter1();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View view = inflater.inflate(R.layout.fragment_notice, container, false);
         deleteNoticeRecycler = view.findViewById(R.id.deleteNoticeRecycler);
         progressBar = view.findViewById(R.id.progressBar);
@@ -44,6 +52,9 @@ public class NoticeFragment extends Fragment {
 
         deleteNoticeRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
         deleteNoticeRecycler.setHasFixedSize(true);
+
+        adapter1 = new NoticeAdapter1();
+        deleteNoticeRecycler.setAdapter(adapter1);
 
         getNotice();
         return view;
@@ -62,10 +73,8 @@ public class NoticeFragment extends Fragment {
 
                 }
 
-                adapter = new NoticeAdapter(getContext(), list);
-                adapter.notifyDataSetChanged();
                 progressBar.setVisibility(View.GONE);
-                deleteNoticeRecycler.setAdapter(adapter);
+                adapter1.submitList(list);
             }
 
             @Override
